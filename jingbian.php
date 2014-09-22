@@ -21,7 +21,7 @@ if($_POST["txt"] !=""){
   while($i<count($txt)){
     
    
-  $str=$str . '<p><a target="_blank" href="' . $txt[$i] . '">' . $txt[$i+1] . '</a></p>'."\n";
+  $str=$str . '<li><a target="_blank" href="' . $txt[$i] . '">' . $txt[$i+1] . '</a></li>'."\n";
   
   
   $i=$i+2;
